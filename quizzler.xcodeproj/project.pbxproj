@@ -16,6 +16,7 @@
 		0413725A2A41D731000D4BC3 /* quizzlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041372592A41D731000D4BC3 /* quizzlerTests.swift */; };
 		041372642A41D731000D4BC3 /* quizzlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041372632A41D731000D4BC3 /* quizzlerUITests.swift */; };
 		041372662A41D731000D4BC3 /* quizzlerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041372652A41D731000D4BC3 /* quizzlerUITestsLaunchTests.swift */; };
+		041372732A41E5BD000D4BC3 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041372722A41E5BD000D4BC3 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0413725F2A41D731000D4BC3 /* quizzlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = quizzlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041372632A41D731000D4BC3 /* quizzlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizzlerUITests.swift; sourceTree = "<group>"; };
 		041372652A41D731000D4BC3 /* quizzlerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quizzlerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		041372722A41E5BD000D4BC3 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0413724B2A41D731000D4BC3 /* Assets.xcassets */,
 				0413724D2A41D731000D4BC3 /* LaunchScreen.storyboard */,
 				041372502A41D731000D4BC3 /* Info.plist */,
+				041372722A41E5BD000D4BC3 /* Question.swift */,
 			);
 			path = quizzler;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				041372472A41D72F000D4BC3 /* ViewController.swift in Sources */,
+				041372732A41E5BD000D4BC3 /* Question.swift in Sources */,
 				041372432A41D72F000D4BC3 /* AppDelegate.swift in Sources */,
 				041372452A41D72F000D4BC3 /* SceneDelegate.swift in Sources */,
 			);
