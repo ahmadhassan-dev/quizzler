@@ -29,8 +29,16 @@ class ViewController: UIViewController {
 
     @IBAction func buttonPressed(_ sender: UIButton) {
         
+        trueButton.backgroundColor = UIColor.clear
+        falseButton.backgroundColor = UIColor.clear
         var userAnswer = sender.currentTitle;
         var actualAnswer  = questions[index].value
+        
+        if(userAnswer==actualAnswer){
+            sender.backgroundColor = UIColor.green
+        }else{
+            sender.backgroundColor =  UIColor.red
+        }
     
         if(index+1>=questions.capacity){
             index = 0
@@ -39,6 +47,7 @@ class ViewController: UIViewController {
         }
         index = index + 1
         questionLabel.text = questions[index].question
+     
     }
     
 }
