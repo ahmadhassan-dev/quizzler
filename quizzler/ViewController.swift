@@ -37,6 +37,8 @@ class ViewController: UIViewController {
         var actualAnswer  = questions[index][1]
     
         if(index+1>=questions.capacity){
+            index = 0
+            questionLabel.text = questions[index][0]
             return
         }
         index = index + 1
