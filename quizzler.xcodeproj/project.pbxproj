@@ -103,12 +103,12 @@
 			children = (
 				041372422A41D72F000D4BC3 /* AppDelegate.swift */,
 				041372442A41D72F000D4BC3 /* SceneDelegate.swift */,
-				041372462A41D72F000D4BC3 /* ViewController.swift */,
-				041372482A41D72F000D4BC3 /* Main.storyboard */,
+				0452F5A82A43264200A20650 /* Controller */,
+				0452F5A92A43264E00A20650 /* View */,
 				0413724B2A41D731000D4BC3 /* Assets.xcassets */,
 				0413724D2A41D731000D4BC3 /* LaunchScreen.storyboard */,
 				041372502A41D731000D4BC3 /* Info.plist */,
-				041372722A41E5BD000D4BC3 /* Question.swift */,
+				0452F5AA2A43267C00A20650 /* Model */,
 			);
 			path = quizzler;
 			sourceTree = "<group>";
@@ -128,6 +128,30 @@
 				041372652A41D731000D4BC3 /* quizzlerUITestsLaunchTests.swift */,
 			);
 			path = quizzlerUITests;
+			sourceTree = "<group>";
+		};
+		0452F5A82A43264200A20650 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				041372462A41D72F000D4BC3 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0452F5A92A43264E00A20650 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				041372482A41D72F000D4BC3 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0452F5AA2A43267C00A20650 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				041372722A41E5BD000D4BC3 /* Question.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
